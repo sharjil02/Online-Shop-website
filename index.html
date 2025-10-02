@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 2 - Responsive Website (Dark Mode)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+  <!-- NAVBAR -->
+  <header class="sticky top-0 bg-gray-800 shadow">
+    <nav class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold text-indigo-400">MyShop</h1>
+      <ul class="hidden md:flex gap-6">
+        <li><a href="#home" class="hover:text-indigo-400">Home</a></li>
+        <li><a href="#products" class="hover:text-indigo-400">Products</a></li>
+        <li><a href="#reviews" class="hover:text-indigo-400">Reviews</a></li>
+        <li><a href="#contact" class="hover:text-indigo-400">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="bg-indigo-600 text-white text-center py-20">
+  <h3 class="text-4xl md:text-5xl font-bold">Welcome</h3>
+  <h2 class="text-5xl md:text-6xl font-extrabold mt-2">MyShop</h2>
+  <p class="mt-4 text-lg md:text-xl">Only For Men</p>
+  <p class="mt-4 text-lg md:text-xl">Best products at the best prices</p>
+  <a href="#products" class="mt-6 inline-block bg-white text-indigo-600 px-6 py-3 rounded shadow text-lg font-semibold">
+    Shop Now
+  </a>
+</section>
+
+  <!-- PRODUCTS -->
+<section id="products" class="max-w-6xl mx-auto px-4 py-12">
+  <h2 class="text-2xl font-semibold mb-6 text-center text-indigo-400">Our Products</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
+    <!-- Product Card 1 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/05KKmn00/bag-1854148-1280.jpg" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Bag</h3>
+      <p class="text-sm text-gray-400">Spacious leather bag perfect for work, travel, or daily use.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$15</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/m2SjknFW/01-Olympic-Bounce-Men-Blue-Feature-image-Side-A-1080px-x-1080px-jpg-600x600.webp" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Sneakers</h3>
+      <p class="text-sm text-gray-400">Lightweight and breathable sneakers designed for running and casual wear.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$30</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/1tt6LZFN/new4.png" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Watch</h3>
+      <p class="text-sm text-gray-400">Elegant casual watch with a classic design, perfect for daily wear.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$12</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+    <!-- Product Card 4 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/HxC8Qpfb/b5e4f2b1d9344c739ee436363502939a-jpg-720x720q80.jpg" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Cap</h3>
+      <p class="text-sm text-gray-400">Stylish and comfortable cap suitable for daily wear and sports.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$7</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+    <!-- Product Card 5 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/j56sRWrm/mol.png" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Smartphone</h3>
+      <p class="text-sm text-gray-400">Latest smartphone with high-speed performance and sleek design.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$110</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+    <!-- Product Card 6 -->
+    <div class="bg-gray-800 p-4 rounded-lg shadow hover:shadow-lg transition">
+      <img src="https://i.postimg.cc/B6kSxNL1/photo-1505740420928-5e560c06d30e.jpg" class="w-full h-60 object-cover rounded mb-3">
+      <h3 class="font-semibold">Headphones</h3>
+      <p class="text-sm text-gray-400">Premium over-ear headphones with noise cancellation and deep bass.</p>
+      <div class="flex justify-between items-center mt-2">
+        <span class="font-bold text-indigo-400">$25</span>
+        <button class="bg-indigo-600 text-white px-3 py-1 rounded">Buy</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="bg-gray-800 py-12">
+    <h2 class="text-2xl font-semibold mb-6 text-center text-indigo-400">Customer Reviews</h2>
+    <div class="max-w-4xl mx-auto grid gap-6 md:grid-cols-3 px-4">
+      <div class="bg-gray-900 p-4 rounded shadow">
+        <p>"Great quality and fast delivery!"</p>
+        <div class="flex text-yellow-400 mt-2">⭐⭐⭐⭐⭐</div>
+        <span class="block mt-2 font-semibold">- Alam vai</span>
+      </div>
+      <div class="bg-gray-900 p-4 rounded shadow">
+        <p>"I love the products. Worth the price."</p>
+        <div class="flex text-yellow-400 mt-2">⭐⭐⭐⭐☆</div>
+        <span class="block mt-2 font-semibold">- Halim</span>
+      </div>
+      <div class="bg-gray-900 p-4 rounded shadow">
+        <p>"Excellent service and support."</p>
+        <div class="flex text-yellow-400 mt-2">⭐⭐⭐⭐⭐</div>
+        <span class="block mt-2 font-semibold">- Nasif</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="max-w-6xl mx-auto px-4 py-12">
+    <h2 class="text-2xl font-semibold mb-6 text-center text-indigo-400">Contact Us</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <p><b>Address:</b> Nasirabad,Chittagong,Bangladesh</p>
+        <p><b>Email:</b> xyz@gmail.com</p>
+        <p><b>Phone:</b> +88012344566</p>
+      </div>
+      <form class="space-y-3 bg-gray-800 p-4 rounded shadow">
+        <input type="text" placeholder="Name" class="w-full border border-gray-600 bg-gray-900 rounded px-3 py-2 text-gray-200">
+        <input type="email" placeholder="Email" class="w-full border border-gray-600 bg-gray-900 rounded px-3 py-2 text-gray-200">
+        <textarea placeholder="Message" class="w-full border border-gray-600 bg-gray-900 rounded px-3 py-2 text-gray-200"></textarea>
+        <button class="bg-indigo-600 text-white px-4 py-2 rounded">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section id="newsletter" class="bg-indigo-600 text-white text-center py-12">
+    <h2 class="text-2xl font-bold">Join Our Newsletter</h2>
+    <p class="mt-2">Get updates and special offers</p>
+    <form class="mt-4 flex justify-center">
+      <input type="email" placeholder="Your email" class="px-3 py-2 rounded-l text-gray-800">
+      <button class="bg-white text-indigo-600 px-4 py-2 rounded-r">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-950 text-gray-400 text-center py-4">
+    <p>© 2025 MyShop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
