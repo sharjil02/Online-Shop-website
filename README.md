@@ -3,5 +3,5 @@
 
 
 
-A simple, responsive e-commerce style web page showcasing a fashion shop: “Chota Muta Shop.”
+A simple, responsive e-commerce style web page showcasing a fashion shop: “MyShop.”
 Built using HTML + Tailwind CSS and deployed via GitHub Pages:
